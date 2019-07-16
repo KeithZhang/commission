@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test makeRequest initReq have headers 1`] = `
+Object {
+  "headers": Object {
+    "Accept": "application/json; charset=utf-8",
+    "Content-Type": "application/json; charset=utf-8",
+    "Platform": "ios",
+    "Version": "",
+    "credentials": "omit",
+    "test": "test",
+    "token": "",
+  },
+  "method": "POST",
+}
+`;
+
+exports[`test makeRequest initReq is empty 1`] = `
+Object {
+  "headers": Object {
+    "Accept": "application/json; charset=utf-8",
+    "Content-Type": "application/json; charset=utf-8",
+    "Platform": "ios",
+    "Version": "",
+    "credentials": "omit",
+    "token": "",
+  },
+  "method": "GET",
+}
+`;
+
+exports[`test makeRequest setting isUpload 1`] = `
+Object {
+  "headers": Object {
+    "Accept": "application/json; charset=utf-8",
+    "Content-Type": "multipart/form-data",
+    "Platform": "ios",
+    "Version": "",
+    "credentials": "omit",
+    "test": "test",
+    "token": "",
+  },
+  "method": "POST",
+}
+`;

@@ -1,0 +1,61 @@
+{
+  "name": "AppCustomer",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "antd-mobile-rn": "2.2.1",
+    "plume2": "1.2.3",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.45.1",
+    "react-native-iphone-x-helper": "1.2.0",
+    "react-native-qrcode": "0.2.7",
+    "react-native-swiper": "1.5.13",
+    "react-native-vector-icons": "6.1.0",
+    "react-native-wechat": "1.9.10",
+    "react-navigation": "2.17.0",
+    "util": "0.11.1"
+  },
+  "devDependencies": {
+    "@types/jest": "23.3.5",
+    "@types/react": "16.4.16",
+    "@types/react-native": "0.46.1",
+    "@types/react-native-vector-icons": "4.6.4",
+    "@types/react-navigation": "2.0.24",
+    "@types/react-test-renderer": "16.0.3",
+    "babel-jest": "23.6.0",
+    "babel-plugin-plume2": "0.0.3",
+    "babel-preset-react-native": "4.0.1",
+    "jest": "23.6.0",
+    "lerna": "2.5.1",
+    "metro-react-native-babel-preset": "0.48.1",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "ts-jest": "23.10.4",
+    "tslib": "1.9.3",
+    "typescript": "3.1.6"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testPathIgnorePatterns": [
+      "\\.snap$",
+      "<rootDir>/node_modules/"
+    ],
+    "cacheDirectory": ".jest/cache"
+  }
+}

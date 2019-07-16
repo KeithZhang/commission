@@ -1,0 +1,13 @@
+{
+  "name": "you-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "types": "./lib/typings/index.d.ts",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "global": "^4.3.2",
+    "typescript": "^3.2.2"
+  }
+}
